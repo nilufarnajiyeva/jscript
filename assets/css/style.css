@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  background-color: orangered;
+  color: white;
+}
+nav .Mayer {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+nav .Mayer img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+nav .app {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+nav .app p {
+  font-style: bold;
+}
+
+.dark {
+  width: 200px;
+  background-color: black;
+  color: white;
+  height: 800px;
+}
+.dark p {
+  padding: 10px;
+}
+
+.Jonathan {
+  display: flex;
+  align-items: center;
+}
+.Jonathan img {
+  border-radius: 50%;
+  width: 70px;
+  height: 50px;
+}
+.Jonathan input {
+  width: 70px;
+  height: 15px;
+  padding: 0;
+}
+.Jonathan .name {
+  font-style: normal;
+  font-size: smaller;
+}
+
+.activity {
+  margin: 16px;
+}
+
+.images{
+  display: flex;
+  width: 80%;
+  align-items: center;
+  margin-top: -800px;
+  flex-wrap: wrap;
+ padding: 10px;
+  margin-left: 200px;
+}
+.vailling{
+  padding-left: 10px;
+}
+
+
